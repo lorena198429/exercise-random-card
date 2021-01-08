@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 30px;
+}
+
+.card {
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: 10px 10px 10px rgb(224, 224, 224);
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  font-size: 55px;
+  /* border: 2px solid red; */
+}
+.circle.number {
+  font-size: 80px;
+  width: fit-content;
+  height:  fit-content;
+
+}
+
+.container {
+  height: 33.3333%;
+  width: 100%;
+  padding: 35px;
+}
+
+.b-red {
+  border: 2px solid red;
+
+}
+
+.d-flex {
+  display: flex;
+} 
+.jc-end {
+  justify-content: flex-end;
+} 
+.ai-center {
+  align-items: center;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.transform-rotate {
+  transform: rotate(180deg);
+}
